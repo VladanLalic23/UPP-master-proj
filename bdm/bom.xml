@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.Korisnik">
+            <fields>
+                <field type="STRING" length="255" name="ime" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="prezime" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="email" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="username" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="uloga" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="strucnost" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="vladaId" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="adresa" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="mesto" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="postanskiBroj" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.Vlada">
+            <fields>
+                <field type="STRING" length="255" name="naziv" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nivoUprave" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="kontakt" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.ZahtevKodifikacije">
+            <fields>
+                <field type="STRING" length="255" name="nazivZakona" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="tipZakona" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="domeni" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="nivoUprave" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="hitnost" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="uticajNaDrugeVlade" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="status" nullable="true" collection="false"/>
+                <field type="DATE" length="255" name="rokZaZavrsetak" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="vladaId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="primanrniAdvokatId" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="advokatZaPregledId" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>

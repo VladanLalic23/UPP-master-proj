@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="MarkoAdvokat">
+      <firstName>Marko</firstName>
+      <lastName>Maric</lastName>
+      <personalData/>
+      <professionalData>
+        <email>marko.advokat.maric@gmail.com</email>
+        <address>Bulevar</address>
+        <zipCode>21000</zipCode>
+        <city>Novi Sad</city>
+        <state>Srbija</state>
+        <country>SRB</country>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Teodora">
+      <firstName>Teodora</firstName>
+      <lastName>Teodorovic</lastName>
+      <personalData/>
+      <professionalData>
+        <email>teo2@gmail.com</email>
+        <zipCode>11000</zipCode>
+        <city>Beograd</city>
+        <country>SRB</country>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Petar">
+      <firstName>Petar</firstName>
+      <lastName>Peric</lastName>
+      <personalData/>
+      <professionalData>
+        <email>pera.menazer@gmail.com</email>
+        <address>Brace Popovic 5</address>
+        <zipCode>21000</zipCode>
+        <city>Novi Sad</city>
+        <country>SRB</country>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User1">
+      <firstName>Stefan</firstName>
+      <lastName>Stefic</lastName>
+      <personalData/>
+      <professionalData>
+        <email>stef@gmail.com</email>
+        <address>Cara Lazara</address>
+        <zipCode>21000</zipCode>
+        <city>Novi Sad</city>
+        <country>SRB</country>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Ana">
+      <firstName>Ana</firstName>
+      <lastName>Anic</lastName>
+      <personalData/>
+      <professionalData>
+        <email>anica@gmail.com</email>
+        <address>Gospodara Vucica</address>
+        <zipCode>11000</zipCode>
+        <city>Beograd</city>
+        <country>SRB</country>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="User2">
+      <firstName>Stefan</firstName>
+      <lastName>Nemanja</lastName>
+      <personalData/>
+      <professionalData>
+        <email>despost@gmail.com</email>
+        <address>Cara Dusana</address>
+        <zipCode>34000</zipCode>
+        <city>Kragujevac</city>
+        <country>SRB</country>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Cezar">
+      <firstName>Gaj Julije</firstName>
+      <lastName>Cezar</lastName>
+      <personalData/>
+      <professionalData>
+        <email>avecezar@gmail.com</email>
+        <address>Rimska </address>
+        <zipCode>11000</zipCode>
+        <city>Beograd</city>
+        <country>SRB</country>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Jago">
+      <firstName>Jago</firstName>
+      <lastName>Dos Santos</lastName>
+      <personalData/>
+      <professionalData>
+        <email>jagoSantos@gmail.com</email>
+        <address>Kalemegdan</address>
+        <zipCode>11000</zipCode>
+        <city>Beograd</city>
+        <country>SRB</country>
+      </professionalData>
+      <password encrypted="false">123</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Advokat">
+      <displayName>Advokat</displayName>
+    </role>
+    <role name="Menadzer">
+      <displayName>Menadzer</displayName>
+    </role>
+    <role name="Sluzbenik">
+      <displayName>Sluzbenik</displayName>
+    </role>
+    <role name="Recenzent">
+      <displayName>Recenzent</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Agencija">
+      <displayName>Agencija</displayName>
+    </group>
+    <group name="Vlada1">
+      <displayName>Vlada1</displayName>
+    </group>
+    <group name="Vlada2">
+      <displayName>Vlada2</displayName>
+    </group>
+    <group name="Vlada3">
+      <displayName>Vlada3</displayName>
+    </group>
+    <group name="Vlada4">
+      <displayName>Vlada4</displayName>
+    </group>
+    <group name="Vlada5">
+      <displayName>Vlada5</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>MarkoAdvokat</userName>
+      <roleName>Advokat</roleName>
+      <groupName>Agencija</groupName>
+    </membership>
+    <membership>
+      <userName>Teodora</userName>
+      <roleName>Menadzer</roleName>
+      <groupName>Agencija</groupName>
+    </membership>
+    <membership>
+      <userName>Petar</userName>
+      <roleName>Sluzbenik</roleName>
+      <groupName>Agencija</groupName>
+    </membership>
+    <membership>
+      <userName>User1</userName>
+      <roleName>Advokat</roleName>
+      <groupName>Vlada1</groupName>
+    </membership>
+    <membership>
+      <userName>Ana</userName>
+      <roleName>Advokat</roleName>
+      <groupName>Vlada2</groupName>
+    </membership>
+    <membership>
+      <userName>User2</userName>
+      <roleName>Advokat</roleName>
+      <groupName>Vlada3</groupName>
+    </membership>
+    <membership>
+      <userName>Cezar</userName>
+      <roleName>Advokat</roleName>
+      <groupName>Vlada4</groupName>
+    </membership>
+    <membership>
+      <userName>Jago</userName>
+      <roleName>Advokat</roleName>
+      <groupName>Vlada5</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
